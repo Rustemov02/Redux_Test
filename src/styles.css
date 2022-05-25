@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  /* background-color: white; */
+  border : solid white  1px ;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
